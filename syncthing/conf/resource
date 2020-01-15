@@ -1,0 +1,12 @@
+{
+    "data-share": {
+        "shares": [
+            {
+                "name": "syncthing-data",
+                "permission": {
+                    "rw": ["syncthing"]
+                }
+            }
+        ]
+    }
+}

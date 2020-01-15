@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# The build is done in the prepare.sh step prior to PkgCreate.
+exit 0

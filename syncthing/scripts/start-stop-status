@@ -1,0 +1,25 @@
+#!/bin/sh
+
+case "$1" in
+    "start")
+        (
+            exec 2>&1
+            export HOME="$SYNOPKG_PKGDEST_VOL"
+            export STNODEFAULTFOLDER=1
+            "$SYNOPKG_PKGDEST/bin/syncthing" \
+                -home="$SYNOPKG_PKGDEST_VOL/syncthing-data" \
+                -logflags=0 \
+                -no-browser \
+                -gui-address=0.0.0.0:8384 \
+                | logger -t syncthing
+        ) > "$SYNOPKG_TEMP_LOGFILE" &
+        ;;
+
+    "stop")
+        pkill syncthing || true
+        ;;
+
+    "status")
+        ps ax | grep -v grep | grep -v start-stop-status | grep syncthing
+        ;;
+esac
