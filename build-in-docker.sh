@@ -2,7 +2,7 @@
 set -euo pipefail
 
 collect_logs() {
-    popd || true
+    popd >/dev/null 2>/dev/null || true
     for d in /toolkit/build_env/* ; do
         base=$(basename $d)
         mkdir -p logs/$base
@@ -19,9 +19,9 @@ for d in /toolkit/build_env/* ; do
     chroot "$d" gpg --batch --import /signing-key.asc
 done
 
-pushd /toolkit
+pushd /toolkit >/dev/null
 ./pkgscripts-ng/PkgCreate.py -c syncthing
-popd
+popd >/dev/null
 
 mkdir -p packages
 for d in /toolkit/build_env/* ; do

@@ -28,3 +28,5 @@ cp -r doc "$DESTDIR"
 mv "$DESTDIR/doc/LICENSE" "$DESTDIR"
 mv "$DESTDIR/doc/AUTHORS" "$DESTDIR"
 mv "$DESTDIR/doc/README.md" "$DESTDIR/README.txt"
+
+cp nginx.conf "$DESTDIR"
