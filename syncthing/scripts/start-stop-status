@@ -8,7 +8,8 @@ case "$1" in
             export STNODEFAULTFOLDER=1
             "$SYNOPKG_PKGDEST/bin/syncthing" \
                 -home="$SYNOPKG_PKGDEST_VOL/syncthing-data" \
-                -logflags=0 \
+                -logflags=3 \
+                -logfile="$SYNOPKG_PKGDEST_VOL/syncthing-data/syncthing.log" \
                 -no-browser \
                 -gui-address=http://0.0.0.0:8384 \
                 | logger -t syncthing
