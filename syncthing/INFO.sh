@@ -5,7 +5,7 @@ source /pkgscripts/include/pkg_util.sh
 package="syncthing"
 version=$(cat INFO_VERSION)
 displayname="Syncthing"
-maintainer="Syncthing Foundation"
+maintainer="Syncthing Community"
 maintainer_url="https://www.syncthing.net/"
 distributor="Kastelo Inc."
 distributor_url="https://www.kastelo.net/"
