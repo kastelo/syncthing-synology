@@ -2,7 +2,7 @@
 
 source /pkgscripts/include/pkg_util.sh
 
-package="syncthing"
+package="syncthing.net"
 version=$(cat INFO_VERSION)
 displayname="Syncthing"
 maintainer="Syncthing Community"

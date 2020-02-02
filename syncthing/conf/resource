@@ -4,7 +4,7 @@
             {
                 "name": "syncthing-data",
                 "permission": {
-                    "rw": ["syncthing"]
+                    "rw": ["syncthing.net"]
                 }
             }
         ]

@@ -12,7 +12,7 @@ case "$1" in
                 -logfile="$SYNOPKG_PKGDEST_VOL/syncthing-data/syncthing.log" \
                 -no-browser \
                 -gui-address=http://0.0.0.0:8384 \
-                | logger -t syncthing
+                | logger -t "$SYNOPKG_PKGNAME"
         ) > "$SYNOPKG_TEMP_LOGFILE" &
         ;;
 
