@@ -7,10 +7,10 @@ with a couple of caveats.
 Synology Permissions
 --------------------
 
-Syncthing runs as a system user called ``syncthing``, which by default will
-not have permission to access any of your file shares. This is intentional
-for your security. Hence, in order to share a folder using Syncthing, the
-first step is to grant Syncthing access to the file share.
+Syncthing runs as a system user called ``syncthing.net``, which by default
+will not have permission to access any of your file shares. This is
+intentional for your security. Hence, in order to share a folder using
+Syncthing, the first step is to grant Syncthing access to the file share.
 
 In the Control Panel, select Shared Folders, the folder you want to share,
 and Edit. In the Synology folder editor, click the Permissions tab. You
@@ -21,9 +21,9 @@ permissions:
     permissions1.png
 
 Now select "System internal user" in the dropdown that by default says
-"Local users". You will see a different set of users, where ``syncthing``
-will be one among them. Grant ``syncthing`` Read/Write permissions to the
-shared folder:
+"Local users". You will see a different set of users, where
+``syncthing.net`` will be one among them. Grant ``syncthing.net`` Read/Write
+permissions to the shared folder:
 
 .. image::
     permissions1.png
