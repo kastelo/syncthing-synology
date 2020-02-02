@@ -26,7 +26,7 @@ Now select "System internal user" in the dropdown that by default says
 permissions to the shared folder:
 
 .. image::
-    permissions1.png
+    permissions2.png
 
 Click OK to save these settings.
 
