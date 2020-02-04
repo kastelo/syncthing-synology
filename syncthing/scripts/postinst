@@ -1,5 +1,14 @@
-#!/bin/sh
+#!/bin/bash
 
 ln -fs "$SYNOPKG_PKGDEST/nginx.conf" /etc/nginx/conf.d/www.syncthing.conf
+
+group=syncthing
+user=syncthing.net
+
+synogroup --add "$group" "$user"
+synogroup --descset "$group" "Syncthing permission group"
+
+members=$(synogroup --get "$group" | grep '^[0-9]' | grep -v "$user" | sed 's/.*\[\([^]]*\)].*/\1/' | tr '\n' ' ')
+synogroup --member "$group" "$user" $members
 
 exit 0
