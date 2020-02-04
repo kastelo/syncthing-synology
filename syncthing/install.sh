@@ -30,3 +30,4 @@ mv "$DESTDIR/doc/AUTHORS" "$DESTDIR"
 mv "$DESTDIR/doc/README.md" "$DESTDIR/README.txt"
 
 cp nginx.conf "$DESTDIR"
+cp syncthing.sc "$DESTDIR"

@@ -8,5 +8,8 @@
                 }
             }
         ]
+    },
+    "port-config": {
+        "protocol-file": "syncthing.sc"
     }
 }
