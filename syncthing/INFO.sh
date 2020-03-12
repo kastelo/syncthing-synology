@@ -18,6 +18,7 @@ silent_install="yes"
 silent_upgrade="yes"
 silent_uninstall="yes"
 instuninst_restart_services="nginx"
+os_min_ver="6.1-15047"
 
 # Probably not required
 #package_icon=$(base64 < PACKAGE_ICON.PNG)
