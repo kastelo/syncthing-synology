@@ -14,7 +14,7 @@ if [[ ! -z ${extra_version:-} ]] ; then
 else
     rels=$(curl -s https://synology.kastelo.net/v1/packages)
     i=1
-    while echo "$rels" | grep -q "$ver" ; do
+    while echo "$rels" | grep -q "-$ver.spk" ; do
         ver="$syncthing_version.$i"
         i=$((i + 1))
     done
