@@ -41,6 +41,13 @@ should double check:
 .. image::
     syncthing1.png
 
+In order for the Synology ACLs and permissions from above to remain in effect,
+it's essential to set the "Ignore Permissions" advanced option in the Syncthing
+sharing dialog:
+
+.. image::
+    ignoreperms.png
+
 It is also a good idea to set up some initial ignore patterns at the same
 time. Synology by default creates a directory ``@aeDir`` that contains some
 metadata, and depending on your setup also a recycle bin in ``#recycle``.
