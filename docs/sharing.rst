@@ -48,11 +48,11 @@ sharing dialog:
 .. image::
     ignoreperms.png
 
-It is also a good idea to set up some initial ignore patterns at the same
-time. Synology by default creates a directory ``@aeDir`` that contains some
-metadata, and depending on your setup also a recycle bin in ``#recycle``.
-These should generally not be synced and ignoring them at folder creating
-time will avoid issues down the line:
+It is also a good idea to set up some initial ignore patterns at the same time.
+Synology by default creates a directory ``@eaDir`` that contains some metadata,
+and depending on your setup also a recycle bin in ``#recycle`` and a snapshot
+dir in ``#snapshot``. These should generally not be synced and ignoring them at
+folder creating time will avoid issues down the line:
 
 .. image::
     syncthing2.png
