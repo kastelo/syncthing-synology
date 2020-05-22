@@ -19,3 +19,7 @@ forum <https://forum.syncthing.net>`_.
 For issues with the Synology packaging of Syncthing specifically, or with
 this documentation itself, please open an issue on the `syncthing-synology
 GitHub repository <https://github.com/kastelo/syncthing-synology>`_.
+
+For commercial support on Syncthing or this packaging please refer to
+`Syncthing Enterprise Support <https://www.kastelo.net/stes/>`_.
+
