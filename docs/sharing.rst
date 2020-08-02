@@ -14,7 +14,7 @@ Syncthing, the first step is to grant Syncthing access to the file share.
 
 In the Control Panel, select Shared Folders, the folder you want to share,
 and Edit. In the Synology folder editor, click the Permissions tab. You
-should be here, seeing a list of oridnary users and their access
+should be here, seeing a list of ordinary users and their access
 permissions:
 
 .. image::
