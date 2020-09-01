@@ -9,7 +9,14 @@ maintainer="Syncthing Community"
 maintainer_url="https://www.syncthing.net/"
 distributor="Kastelo Inc."
 distributor_url="https://www.kastelo.net/"
-arch="$(pkg_get_unified_platform)"
+
+arch_override="OVERRIDE_PKGARCH_$(pkg_get_platform_family)"
+if [ -n "${!arch_override}" ]; then
+    arch="${!arch_override}"
+else
+    arch=$(pkg_get_unified_platform)
+fi
+
 description="Syncthing is a continuous file synchronization program. It synchronizes files between two or more computers in real time, safely protected from prying eyes. Your data is your data alone and you deserve to choose where it is stored, whether it is shared with some third party, and how it's transmitted over the internet."
 # adminport="8384"
 adminprotocol=https

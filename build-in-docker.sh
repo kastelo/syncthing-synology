@@ -19,6 +19,8 @@ for d in /toolkit/build_env/* ; do
     chroot "$d" gpg --batch --import /signing-key.asc
 done
 
+export OVERRIDE_PKGARCH_armv7="alpine alpine4k armadaxp armada375 armada38x"
+
 pushd /toolkit >/dev/null
 ./pkgscripts-ng/PkgCreate.py -c syncthing
 popd >/dev/null
