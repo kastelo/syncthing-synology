@@ -20,6 +20,7 @@ for d in /toolkit/build_env/* ; do
 done
 
 export OVERRIDE_PKGARCH_armv7="alpine alpine4k armadaxp armada375 armada38x"
+export OVERRIDE_PKGARCH_x86_64="x86 bromolow cedarview avoton braswell broadwell dockerx64 kvmx64 grantley denverton apollolake broadwellnk geminilake"
 
 pushd /toolkit >/dev/null
 ./pkgscripts-ng/PkgCreate.py -c syncthing
