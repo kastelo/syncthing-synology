@@ -6,16 +6,9 @@ Syncthing Synology Package
     This package is deprecated. It does not support DSM 7, and as of the 1st
     of January 2022 it is no longer maintained or updated.
 
-.. toctree::
-    :maxdepth: 3
+The final version of the package is archived at the following URLs:
 
-    installing
-    sharing
-
-Help & Support
---------------
-
-For information on and support for *Syncthing itself*, please refer to `the
-Syncthing documentation <https://docs.syncthing.net/>`_ and `the Syncthing
-forum <https://forum.syncthing.net>`_.
-
+- https://cdn.kastelo.net/syno/syncthing.net-armv7-1.18.5.spk
+- https://cdn.kastelo.net/syno/syncthing.net-armv8-1.18.5.spk
+- https://cdn.kastelo.net/syno/syncthing.net-i686-1.18.5.spk
+- https://cdn.kastelo.net/syno/syncthing.net-x86_64-1.18.5.spk

@@ -11,11 +11,6 @@ Usage
 >
 > :warning: :warning: :warning:
 
-~~This package is published at the `https://synology.kastelo.net/` package
-source. (That's not a website for humans. Don't click it.)~~
-
-There is documentation available at https://docs.kastelo.net/synology/.
-
 Development
 -----------
 
