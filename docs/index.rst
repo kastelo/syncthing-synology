@@ -1,7 +1,10 @@
 Syncthing Synology Package
 ==========================
 
-This documents the Synology package for Syncthing.
+.. warning::
+
+    This package is deprecated. It does not support DSM 7, and as of the 1st
+    of January 2022 it is no longer maintained or updated.
 
 .. toctree::
     :maxdepth: 3
@@ -15,11 +18,4 @@ Help & Support
 For information on and support for *Syncthing itself*, please refer to `the
 Syncthing documentation <https://docs.syncthing.net/>`_ and `the Syncthing
 forum <https://forum.syncthing.net>`_.
-
-For issues with the Synology packaging of Syncthing specifically, or with
-this documentation itself, please open an issue on the `syncthing-synology
-GitHub repository <https://github.com/kastelo/syncthing-synology>`_.
-
-For commercial support on Syncthing or this packaging please refer to
-`Syncthing Enterprise Support <https://www.kastelo.net/stes/>`_.
 

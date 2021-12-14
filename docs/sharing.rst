@@ -1,3 +1,8 @@
+.. warning::
+
+    This package is deprecated. It does not support DSM 7, and as of the 1st
+    of January 2022 it is no longer maintained or updated.
+
 Sharing Folders
 ===============
 
